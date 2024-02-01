@@ -41,3 +41,70 @@ img{
 button{
     text-decoration: none;
 }
+
+nav{
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: grey;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+#media{
+    margin-top: 0;
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold
+}
+
+.field{
+  
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: #ffff;
+    padding: .5rem 1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+.field:hover{
+  background-color: rgba(236, 162, 64, 0.267);
+}
+textarea{
+    min-height: 150px;
+}
+
+.button1{
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    padding: .5rem 1 rem;
+    background-color: #f3a85e;
+    color: rgb(8, 8, 8);
+    font-size: 1.1.rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.button1:hover{
+    background-color: #f4eee3;
+    color: #885a3a;
+}
